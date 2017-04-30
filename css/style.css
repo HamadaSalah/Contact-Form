@@ -1,0 +1,98 @@
+body {
+	background: #f1f1f1;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	color: #757575;
+	letter-spacing: -2px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.contact_form {
+	max-width: 450px;
+	margin: 20px auto;
+}
+.contact_form .form-group {
+	margin-bottom: 0;
+	position: relative;
+}
+.contact_form input,
+.contact_form textarea {
+	margin-bottom: 10px;
+}
+.contact_form textarea {
+	height: 180px !important;
+	padding-right:20px;
+}
+.contact_form input:not([type='submit']) + i {
+	height: 0;
+	float: left;
+	position: relative;
+	top: -32px;
+	left: 10px;
+	color: #999;
+}
+.contact_form input {
+	padding-left: 33px;
+}
+.contact_form .send_icon {
+	display: block;
+	position: relative;
+	top: -35px;
+	left: 7px;
+	color: #fff;
+	font-size: 18px;
+}
+.contact_form .form-group span {
+	height: 0;
+	position: absolute;
+	right: 8px;
+	top: 6px;
+	font-size: 22px;
+	color: #e30000;
+}
+.error {
+	background: #ffe9ea;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+.error p {
+	font-size: 17px;
+	font-family: 'Raleway';
+	color: #d20000;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.error i.closee {
+	float: right;
+	display: block;
+	position: relative;
+	top: 5px;
+	right: 5px;
+	color: #bdbdbd;
+	font-size: 18px;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.send_it:disabled {
+    background: #dddddd;
+    }
